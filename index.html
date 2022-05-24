@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form id="formdata">
+      <h6 class="titletext">First Name</h6>
+      <div class="container"></div>
+      <input
+        type="text"
+        id="fname"
+        name="firstname"
+        class="form1 textField"
+        placeholder="First Name"
+      />
+      <h6 class="titletext">Last Name</h6>
+      <input
+        type="text"
+        id="lname"
+        name="lastname"
+        class="form1 textFields col-md"
+        placeholder="Last Name"
+      />
+      <h6 class="titletext">Choose your favorite food</h6>
+      <input type="checkbox" id="briyani" name="favFood" value="briyani" />
+      <label for="briyani" class="labels">Briyani</label><br />
+      <input type="checkbox" id="icecream" name="favFood" value="icecream" />
+      <label for="icecream" class="labels">Ice Cream</label><br />
+      <input type="checkbox" id="pizza" name="favFood" value="pizza" />
+      <label for="pizza" class="labels">Pizza</label><br />
+      <input type="checkbox" id="burger" name="favFood" value="burger" />
+      <label for="burger" class="labels">Burger</label><br />
+      <input type="checkbox" id="rasam" name="favFood" value="rasam" />
+      <label for="rasam" class="labels">Rasam</label><br />
+      <h6 class="titletext">Gender</h6>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male" class="labels gender">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female" class="labels gender">Female</label>
+      <h6 class="titletext">Address</h6>
+      <input
+        type="text"
+        id="address"
+        name="address"
+        class="form1 textField col-md"
+        placeholder="Address"
+      />
+      <h6 class="titletext">State</h6>
+      <input
+        type="text"
+        id="state"
+        name="state"
+        class="form1 col-md"
+        placeholder="State"
+      />
+      <h6 class="titletext">Country</h6>
+      <input
+        type="text"
+        id="country"
+        name="country"
+        class="form1 textField col-md"
+        placeholder="Country"
+      />
+      <h6 class="titletext">Pincode</h6>
+      <input
+        type="text"
+        id="pincode"
+        name="pincode"
+        class="form1 textField col-md"
+        placeholder="Pincode"
+      />
+      <input type="submit" id="submit" class="buttonStyle" />
+    </form>
+  </body>
+</html>
